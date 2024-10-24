@@ -108,10 +108,5 @@ The 4x4 keypad offers the following functionality for number input and basic ari
   - Handles division by zero with an error message.
 - `displayError(String errorMessage)`: Displays error messages on the OLED screen and waits for 2 seconds before clearing.
 
-## Additional Notes
-- The code includes functionality for additional components (like sensors and fans) that are currently not implemented in the logic. These can be integrated as needed.
-- Ensure proper power supply and connection stability to avoid unexpected behavior.
-- Some of the hardware components listed are not actively used in this version of the project but are reserved for future expansion.
-
 ## Conclusion
 This project is a simple yet effective implementation of a smart calculator that demonstrates how to interface an OLED display, keypad, and audio output with a microcontroller. It can serve as a foundation for more complex projects that require user input and real-time feedback. The additional hardware connections provide opportunities for future expansions, such as integrating sensor data or controlling other devices like fans or LEDs based on real-time conditions.
